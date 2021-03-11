@@ -1,0 +1,13 @@
+.verification-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verification-header .company-name {
+  font-size: 24px;
+}

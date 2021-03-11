@@ -1,0 +1,45 @@
+.reg-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reg-header .company-name {
+  font-size: 24px;
+}
+
+.reg-header .button-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.reg-header .offer-msg {
+  font-size: 14px;
+}
+
+.reg-header .action-auth-button {
+  border: 1px solid #B0C1CE;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  width: 150px;
+  height: 40px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.reg-header .action-auth-button:active {
+  outline: none;
+}
+
+.reg-header .action-auth-button:focus {
+  outline: none;
+}

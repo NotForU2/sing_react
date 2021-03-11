@@ -1,0 +1,134 @@
+.reg-block {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.reg-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.reg-caption .reg-caption-greeting {
+  margin: 0 0 8px 0;
+  font-size: 24px;
+}
+
+.reg-caption .reg-caption-offer {
+  margin: 0;
+}
+
+.reg-caption .reg-caption-offer .sign-in-link {
+  color: #2A8BF2;
+  font-size: 16px;
+}
+
+.reg-form-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.reg-form-block .reg-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  width: 360px;
+}
+
+.reg-block .form-field {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 9px 0 9px 0;
+}
+
+.reg-block .form-field .eye-icon {
+  position: absolute;
+  width: 28px;
+  height: 21px;
+  top: 30px;
+  right: 4%;
+  cursor: pointer;
+}
+
+.reg-block .form-field input {
+  border: 1px solid #B0C1CE;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 15px 45px 15px 18px;
+  margin: 2px 0 2px 0;
+  font-size: 14px;
+}
+
+.reg-block .form-field input::placeholder {
+  color: #B0C1CE;
+}
+
+.reg-block .form-field .input-field:focus{
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid #2A8BF2;
+}
+
+.reg-block .form-field .input-field.has-error {
+  box-sizing: border-box;
+  border: 1px solid #FF3366;
+}
+
+.reg-block .form-field label {
+  font-size: 12px;
+}
+
+.reg-block .error-msg {
+  position: relative;
+  font-size: 12px;
+  color: #FF3366;
+  margin: 0 0 0 0;
+}
+
+.reg-block .error-msg img {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: -10%;
+  cursor: pointer;
+}
+
+.reg-block .error-msg.submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg-form button {
+  padding: 15px 0 15px 0;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 1px solid #2A8BF2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #2A8BF2;
+  margin: 9px 0 9px 0;
+  cursor: pointer;
+}
+
+.reg-form button:active {
+  outline: none;
+}
+
+.reg-form button:focus {
+  outline: none;
+}

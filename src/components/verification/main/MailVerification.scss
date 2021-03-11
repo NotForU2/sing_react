@@ -1,0 +1,106 @@
+.verification-block {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.verification-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.verification-caption .verification-caption-offer {
+
+}
+.verification-caption .verification-caption-greeting {
+  margin: 0 0 8px 0;
+  font-size: 24px;
+}
+
+.verification-caption .verification-caption-offer {
+  text-align: center;
+  width: 380px;
+  margin: 0;
+}
+
+.verification-form-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.verification-form-block .verification-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  width: 360px;
+}
+
+.verification-form-block .error-msg {
+  position: relative;
+  font-size: 12px;
+  color: #FF3366;
+  margin: 0 0 0 0;
+}
+
+.verification-form-block .error-msg.submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.verification-form-block-offer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 130px;
+}
+
+.verification-form-block-offer .send-email {
+  user-select: none;
+  color: #2A8BF2;
+  cursor: pointer;
+  margin: 0 10px 0 10px;
+}
+
+.verification-form-block-offer .send-email.sent {
+  color: #B0C1CE;
+  cursor: default;
+  margin: 0 10px 0 10px;
+}
+
+.verification-form-block-offer .timer {
+  color: #2A8BF2;
+}
+
+.verification-form-block button {
+  padding: 15px 0 15px 0;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 1px solid #2A8BF2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #2A8BF2;
+  margin: 9px 0 9px 0;
+  cursor: pointer;
+}
+
+.verification-form-block button:active {
+  outline: none;
+}
+
+.verification-form-block button:focus {
+  outline: none;
+}
